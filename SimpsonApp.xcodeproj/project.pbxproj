@@ -16,6 +16,8 @@
 		DE8CA5B32B8E7484002C945E /* SimpsonAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CA5B22B8E7484002C945E /* SimpsonAppTests.swift */; };
 		DE8CA5BD2B8E7484002C945E /* SimpsonAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CA5BC2B8E7484002C945E /* SimpsonAppUITests.swift */; };
 		DE8CA5BF2B8E7484002C945E /* SimpsonAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CA5BE2B8E7484002C945E /* SimpsonAppUITestsLaunchTests.swift */; };
+		DE8CA5CC2B8E7528002C945E /* DetailsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CA5CB2B8E7528002C945E /* DetailsViewController.swift */; };
+		DE8CA5CE2B8E769F002C945E /* SimpsonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DE8CA5CD2B8E769F002C945E /* SimpsonModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +51,8 @@
 		DE8CA5B82B8E7484002C945E /* SimpsonAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SimpsonAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		DE8CA5BC2B8E7484002C945E /* SimpsonAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonAppUITests.swift; sourceTree = "<group>"; };
 		DE8CA5BE2B8E7484002C945E /* SimpsonAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		DE8CA5CB2B8E7528002C945E /* DetailsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailsViewController.swift; sourceTree = "<group>"; };
+		DE8CA5CD2B8E769F002C945E /* SimpsonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SimpsonModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +110,8 @@
 				DE8CA5A42B8E7484002C945E /* Assets.xcassets */,
 				DE8CA5A62B8E7484002C945E /* LaunchScreen.storyboard */,
 				DE8CA5A92B8E7484002C945E /* Info.plist */,
+				DE8CA5CB2B8E7528002C945E /* DetailsViewController.swift */,
+				DE8CA5CD2B8E769F002C945E /* SimpsonModel.swift */,
 			);
 			path = SimpsonApp;
 			sourceTree = "<group>";
@@ -260,7 +266,9 @@
 			files = (
 				DE8CA5A02B8E7483002C945E /* ViewController.swift in Sources */,
 				DE8CA59C2B8E7483002C945E /* AppDelegate.swift in Sources */,
+				DE8CA5CE2B8E769F002C945E /* SimpsonModel.swift in Sources */,
 				DE8CA59E2B8E7483002C945E /* SceneDelegate.swift in Sources */,
+				DE8CA5CC2B8E7528002C945E /* DetailsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
